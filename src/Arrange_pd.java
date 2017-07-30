@@ -24,8 +24,8 @@ public class Arrange_pd
 			if (rg.readgest.equals(sha.sha1code(testNum)))
 			{
 				if(rg.statement==false)
-                new Main().Found_d(testNum);
-				rg.statement = true;
+                         new Main().Found_d(testNum);
+                         rg.statement = true;//防止重复打印
 				}     
 		}
 		//System.out.println(new String);
