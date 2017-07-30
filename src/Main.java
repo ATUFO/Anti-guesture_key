@@ -14,12 +14,13 @@ public class Main
 		//sha s=new sha();
 		//
 		//System.out.println(s.sha1code("00010203"
-		 run =  new Run_pd();
-	     run.start();
+		//用线程跑
+		run =  new Run_pd();
+	         run.start();
 		
 		}
 		
-	
+	//找到密码的回调
 		public static void Found_d(String password){
 			System.out.println("图案锁密码是"+password);
 			long end= System.currentTimeMillis();
